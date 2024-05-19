@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+
+            body{
+                margin:0;
+                padding: 0;
+                color: white;
+            }
+            .box{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 70px;
+                height: 70px;
+                background-color: blue;
+                margin: 20px;
+                border: 3px solid purple;
+                cursor: pointer;
+            }
+
+            .box:hover{
+                transition: .25s;
+                background-color: purple;
+                border-color: blue;
+                border-bottom: 3px solid red;
+            }
+
+            .circle{
+                display:inline-flex;
+                justify-content: center;
+                align-items:center;
+                width: 70px;
+                height: 70px;
+                background-color: blue;
+                margin: 20px;
+                border: 3px solid purple;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .circle:hover{
+                transition: .25s;
+                background-color: purple;
+                border-color: blue;
+            }
+
+            .text{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                color:black;
+                margin: 25px;
+                padding: 25px;
+                display: inline-flex;
+                border: 3px solid transparent;
+
+            }
+
+            .text:hover{
+                background-color: rgb(255, 249, 239);
+                border-bottom: 3px solid darkred;
+                border-radius: 4px;
+            }
+
+            .icons{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                margin: 50px;
+                padding: 4px 10px;
+                cursor: pointer;
+            }
+
+            .icons h1{
+                padding: 0;
+            }
+
+            .icons:hover{
+                background-color: rgb(255, 249, 239);
+                color: darkred;
+            }
+
+            .icons i{
+                margin-left: 12px;
+                margin-top: 8px;
+                font-size: 18px;
+            }
+
+            .seperate{
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="box">one</div>
+        <div class="box">two</div>
+        <div class="box">three</div>
+
+ 
+            <div class="circle">one</div>
+            <div class="circle">two</div>
+            <div class="circle">three</div>
+
+
+        <div class="seperate">
+            <div class="text">Welcome</div>
+            <div class="text">More Info</div>
+        </div>
+
+        <div class="icons">
+            <h1>Options</h1>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        
+    </body>
+</html>
