@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <title>Hello</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-size: 12px;
+            }
+
+            .header{
+                display: flex;
+                justify-content: space-between;                
+            }
+
+            .name{
+                display: flex;
+                align-items: center;
+                color: rgb(0, 0, 0);
+                margin: 20px;
+                padding: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+
+            .btn1, .btn2, .btn3{
+                display: inline-flex;
+                align-items: center;
+                margin: 20px;
+                padding: 10px 20px;
+                color: rgb(0, 0, 0);
+                cursor: pointer;
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+
+            .btn1:hover, .btn2:hover, .btn3:hover{
+                color: white;
+                background-color: black;
+            }
+
+            .landing-page-title{
+                display: grid;
+                justify-content: center;
+                text-align: center;
+                margin-bottom: 10px;
+
+            }
+
+            .page-title{
+                margin-top: 8px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .page-subheading{
+                font-size: 12px;
+                font-weight: 200;
+            }
+
+            .page-btn{
+
+            }
+
+            .main-img{
+                display: flex;
+                justify-content: center;
+                padding: 0;
+                margin: 50px;
+                max-height: 600px;
+                max-width: auto;
+            }
+
+            .page-heading-section{
+                margin: 20px;
+                padding: 20px;
+            }
+
+            .heading-section-subheading h1{
+                font-size: 28px;
+                font-weight: 600;
+            }
+
+            .heading-section-subheading p{
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            .container{
+                display: flex;
+                justify-content: center;
+                margin: 60px;
+            }
+
+            .row{
+                display: inline-flex;
+            }
+
+            .box{
+                box-sizing: border-box;
+                margin: 20px;
+                background-color: rgb(255, 255, 255);
+                width: 230px;
+                height: 150px;
+                border: 1px solid transparent;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 24px;
+            }
+
+            .box p{
+                font-size: 12px;
+                font-weight: 700;
+                margin: 25px;
+            }
+
+            .footer{
+                display: flex;
+                justify-content: space-between;
+                margin: 20px;
+            }
+        
+            .footer h4{
+                display:flex;
+                height: fit-content;
+                padding: 10px;
+                font-size: 14px;
+                font-weight: 500;
+        
+            }
+        
+            .topic-page-list{
+                display: inline-flex;
+            }
+        
+            .top-topic-list{
+                border: 1px solid transparent;
+                border-radius: 4px;
+            }
+        
+            .top-topic-list:hover{
+                color: white;
+                background-color: black;
+            }
+        
+            .page{
+                border:1px solid transparent;
+                margin: 5px;
+                padding: 3px 12px;
+            }
+        
+            .topic1, .topic2, .topic3{
+                text-align: center;
+                margin: 25px;
+                padding: 0 10px 10px 10px;
+                border: 1px solid transparent;
+                cursor: pointer;
+            }
+        
+            .page:hover{
+                border-color: black;
+                border-radius: 4px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="name">
+                <h3>Site Name</h3>
+            </div>
+            <div class="btns">
+                <div class="btn1">Page</div>
+                <div class="btn2">Page</div>
+                <div class="btn3">Page</div>
+            </div>
+        </div>    
+        <div class="landing-page-title">
+            <div class="page-title">
+                <h1>Landing Page Title</h1>
+            </div>
+            <div class="page-subheading">
+                <h3>And a subheading describing your site, too</h3>
+            </div>
+            <div class="page-btn">
+                <button>Button</button>
+            </div>
+        </div>
+        <div class="main-img">
+            <img src="https://th.bing.com/th/id/R.aa3d2375e9960e213ded98912577eb6e?rik=ISyprROXkbHrNQ&pid=ImgRaw&r=0">
+        </div>
+        <div class="page-heading-section">
+            <div class="heading-section-subheading">
+                <h1>Heading</h1>
+                <p>Subheading to introduce testimonials</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="box">
+                        <div class="content">
+                            <p>"A terrific peice of praise"</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p>"A fantastic bit of feedback"</p>
+                    </div>
+                    <div class="box">
+                        <p>"A genuinely glowing review"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h4>Site Name</h4>
+                <div class="find-me-icons">
+                    <div class="fb">
+        
+                    </div>
+                    <div class="insta">
+        
+                    </div>
+                    <div class="yt">
+        
+                    </div>
+                    <div class="github">
+                        
+                    </div>
+                </div>
+                <div class="topic-page-list">
+                    <div class="topic1">
+                        <div class="top-topic-list"><p>Topic</p></div>
+                        <div class="page"><p>Page</p></div>
+                        <div class="page"><p>Page</p></div>
+                        <div class="page"><p>Page</p></div>
+                    </div>
+                    <div class="topic2">
+                        <div class="top-topic-list"><p>Topic</p></div>
+                        <div class="page"><p>Page</p></div>
+                        <div class="page"><p>Page</p></div>
+                        <div class="page"><p>Page</p></div>
+                    </div>
+                    <div class="topic3">
+                        <div class="top-topic-list"><p>Topic</p></div>
+                        <div class="page"><p>Page</p></div>
+                        <div class="page"><p>Page</p></div>
+                        <div class="page"><p>Page</p></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
