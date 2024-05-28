@@ -4,7 +4,12 @@
         <title>
             Little Flex Boxes
         </title>
-        <style>
+        <style> 
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
             body{
                 margin: 20px 20px;
                 border: 0;
